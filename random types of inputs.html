@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form demo</h1>
+
+
+    <form action="/tacos">
+        <input type="text" placeholder="Enter text"><br>
+        <label for="pass">password:</label>
+        <input type="password" placeholder="Enter Password" id="pass">
+        </p>
+        <p>
+            <label>
+                does this work?
+                <input type="radio">
+            </label>
+
+        </p>
+        <input type="color"><br>
+        <input type="month"><br>
+        <input type="number" placeholder="10"><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="datetime-local"><br>
+        <input type="checkbox"><br>
+        Button Tag<br>
+
+        <!-- input type button with diff text doesnt do anything on clicking-->
+        <input type="button" value="button element of input type"><br>
+        <!-- input type submit with diff text submits on clicking-->
+        <input type="submit" value="Submit type button input"><br>
+        <!-- Button which submits on clicking -->
+        <button>submit</button><br>
+        <!-- this does't submit as type = button -->
+        <button type="button">Submit Button with type="button" so doesn't submit</button>
+    </form>
+    <hr>
+    <!-- Doesn't submit as outside a form -->
+    <button>Outside form so does't submit</button>
+</body>
+
+</html>

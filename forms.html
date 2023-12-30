@@ -6,29 +6,112 @@
 
 <body>
     <h1>Form demo</h1>
-    <form action="">
-        <input type="text" placeholder="Enter text"><br>
-        <input type="button"><br>
+
+
+    <form action="/tacos">
+        <p>
+            <label for="text_box">Enter name:(Compulsory)</label>
+            <input type="text" placeholder="Enter name" id="text_box" name="User" required><br>
+        </p>
         <p>
             <label for="pass">password:</label>
-            <input type="password" placeholder="Enter Password" id="pass">
+            <input type="password" placeholder="Enter Password" id="pass" name="password">
         </p>
         <p>
-            <!-- placeholdet doesnt work on button -->
-            <label>
-                does this work?
-                <input type="radio">
-            </label>
-
+            <input type="color" name="colour"><br>
         </p>
-        <input type="color"><br>
-        <input type="month"><br>
-        <input type="number" placeholder="10"><br>
-        <input type="date"><br>
-        <input type="time"><br>
-        <input type="datetime-local"><br>
-        <input type="checkbox"><br>
+        <p>
+            <label for="num">Enter number:</label>
+            <input id="num" type="number" placeholder="10" name="num"><br>
+        </p>
+        <button>submit</button><br>
+
+
+
+        <br> <br> <br>
+        Button Tags<br>
+        <!-- input type button with diff text doesnt do anything on clicking-->
+        <input type="button" value="button element of input type"><br>
+        <!-- input type submit with diff text submits on clicking-->
+        <input type="submit" value="Submit type button input"><br>
+        <!-- Button which submits on clicking -->
+        <button>submit</button><br>
+        <!-- this does't submit as type = button -->
+        <button type="button">Submit Button with type="button" so doesn't submit</button>
     </form>
+    <hr>
+    <!-- Doesn't submit as outside a form -->
+    <button>Outside form so does't submit</button>
+    <hr>
+    <h1>Hijacked for from reddit,youtube and google</h1>
+    <!-- https://www.reddit.com/search?q=hello -->
+    <form action="https://www.reddit.com/search">
+        <h2>Reddit</h2>
+        <input type="text" placeholder="What do you want to search?" name="q">
+        <!-- name="q" as reddit ke url mai w= is there -->
+        <button>Search Reddit</button>
+    </form>
+    <!-- https://www.youtube.com/results?search_query=bbs -->
+    <form action="https://www.youtube.com/results">
+        <h2>Youtube</h2>
+        <label for="yt">What do you want to search on Youtube?</label>
+        <input type="text" name="search_query" id="yt">
+        <button>Search Youtube</button>
+    </form>
+    <!-- https://www.google.com/search?q=pizza -->
+    <form action="https://www.google.com/search">
+        <h2>Google</h2>
+        <label for="txt">What do you want to search on google?</label>
+        <input type="text" name="q" id="txt">
+        <button>Search Google</button>
+    </form>
+    <hr>
+    <h1>More Inputs</h1>
+    <h2>Checkbox:-</h2>
+    <form action="/tacos">
+        <input type="checkbox" name="boy" id="boy" checked>
+        <label for="boy">Boy</label>
+        <input type="checkbox" name="Girl" id="Girl">
+        <label for="Girl">Girl</label>
+        <button>Submit</button>
+
+        <h2>Radio Button:-</h2>
+
+        <input type="Radio" id="rb1" name="rb" value="button1">
+        <label for="rb1">Option 1</label>
+        <input type="radio" id="rb2" name="rb" value="button2">
+        <label for="rb2">Option 2</label>
+        <input type="radio" id="rb3" name="rb" value="button3">
+        <label for="rb3">Option 3</label>
+        <button>Submit</button>
+        <h2>Select encompassing options:-</h2>
+        <p>
+            <label for="meal">Select Entree:</label>
+            <select name="Meal_choice" id="meal">
+                <option value="Chicken">Chicken</option>
+                <option value="Mutton">Mutton</option>
+                <option value="Pulao">Pulao</option>
+            </select>
+
+        <p>
+
+            <label for="age">What is your age?</label>
+            <input type="range" name="age" id="age" min="0" max="50" step="1">
+        </p>
+        <p>
+            <label for="num">Enter number:</label>
+            <input id="num" type="number" placeholder="10" name="num" min="0" max="50" step="2">
+        </p>
+        <button>Submit</button>
+        </p>
+    </form>
+    <form action="/tacos">
+        <label for="requests">Any special requests?</label><br>
+        <textarea name="requests" id="requests" cols="40" rows="7"></textarea>
+        <br>
+        <button>Submit</button>
+    </form>
+    <!-- diff form for each-->
 </body>
 
 </html>

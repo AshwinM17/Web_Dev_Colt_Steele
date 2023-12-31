@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registeration Form</title>
+</head>
+
+<body>
+    <h1>Race Registeration!</h1>
+    <form action="/tacos">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" required id="fname" name="firstname">
+            <label for="lname">Last Name</label>
+            <input type="text" required id="lname" name="lastname">
+        </div>
+        <div>Select a race:</div>
+        <!-- use div or para -->
+        <div>
+            <input type="radio" id="rb1" name="racechoice" value="5k">
+            <label for="rb1">Fun run 5K</label><br>
+
+            <input type="radio" id="rb2" name="racechoice" value="hmarathon">
+            <label for="rb2">Half Marathon</label><br>
+
+            <input type="radio" id="rb3" name="racechoice" value="fmarathon">
+            <label for="rb3">Full marathon</label>
+        </div>
+        <div>
+            <label for="email">Enter you Email ID:</label>
+            <input type="email" required id="email" name="email">
+            <label for="pword">Password:</label>
+            <input type="password" name="pass" id="pword" required>
+        </div>
+        <div>
+            <label for="age">Select Age group:</label>
+            <select name="age_qrp" id="age">
+                <option value="Under 18">Under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

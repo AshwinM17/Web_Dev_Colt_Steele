@@ -1,21 +1,34 @@
-h1{
-    color: red;
+h1 {
+    text-align: right;
+    /* width:50%; */
+    font-weight: normal;
+
+    font-size:40px;
+    letter-spacing: 5px;
+    text-decoration: underline overline blue 40px;
 }
 
-h2{
-    color:green;
-    background-color: purple;
-
+p {
+   line-height:1.6;
+   font-family:Didot,Century Gothic;
+   
+}
+div{
+    line-height: 0.75;
+    letter-spacing: 1px;
 }
 
-button{
-    color:blue;
-    background-color: yellow;
+h2 {
+    text-decoration: line-through underline blue ;
+    /* text-decoration: underline wavy blue; */
+    /* I don't know why 2nd one works and not 1st one */
+    /* Onle one type of text-decoration works */
 }
-a{
-    color:orange;
+
+a {
+    text-decoration: none;
+    
 }
-p{
-    color:olive;
-    background-color: yellow;
+h3{
+    line-height:4;
 }

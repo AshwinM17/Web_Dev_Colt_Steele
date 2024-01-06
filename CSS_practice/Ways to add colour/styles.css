@@ -1,0 +1,21 @@
+h1{
+    color: rgb(77, 12, 197);
+}
+
+h2{
+    color:green;
+    background-color: #00ffff;
+
+}
+
+button{
+    color:blue;
+    background-color: yellow;
+}
+a{
+    color:orange;
+}
+p{
+    color:olive;
+    background-color: yellow;
+}

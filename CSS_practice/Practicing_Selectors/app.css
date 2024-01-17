@@ -2,11 +2,33 @@
     text-align: center;
 } */
 *{
-    background-color: rgb(54, 187, 232);
+    background-color: rgb(243, 168, 168);
 }
 button{
-    font: size 25px;
+    font-size:25px;
+    color: red;
+    background-color:azure;
 }
 h1,h2{
-    color:rgb(203, 29, 29);
+    color:rgb(6, 26, 255);
+    
+}
+#signup{
+    color: black;
+    background-color: aqua;
+
+}
+span{
+    color: gray;
+}
+.tag{
+    background-color:orange;
+}
+
+/* span a */
+.post a{
+    color:red;
+}
+footer a{
+    color: rgb(9, 183, 241);
 }

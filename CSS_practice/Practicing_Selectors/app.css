@@ -1,0 +1,12 @@
+/* *{
+    text-align: center;
+} */
+*{
+    background-color: rgb(54, 187, 232);
+}
+button{
+    font: size 25px;
+}
+h1,h2{
+    color:rgb(203, 29, 29);
+}

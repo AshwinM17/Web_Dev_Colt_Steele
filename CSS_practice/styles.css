@@ -3,32 +3,38 @@ h1 {
     /* width:50%; */
     font-weight: normal;
 
-    font-size:40px;
+    font-size: 200px;
     letter-spacing: 5px;
     text-decoration: underline overline blue 40px;
 }
 
 p {
-   line-height:1.6;
-   font-family:Didot,Century Gothic;
-   
+    line-height: 1.6;
+    font-size: 50px;
+    font-family: Didot, Century Gothic;
+
 }
-div{
+
+div {
+    font-size: 100px;
     line-height: 0.75;
     letter-spacing: 1px;
 }
 
 h2 {
-    text-decoration: line-through underline blue ;
+    font-size: 100px;
+    text-decoration: line-through underline blue;
     /* text-decoration: underline wavy blue; */
     /* I don't know why 2nd one works and not 1st one */
     /* Onle one type of text-decoration works */
 }
 
 a {
+    font-size: 50px;
     text-decoration: none;
-    
+
 }
-h3{
-    line-height:4;
+
+h3 {
+    line-height: 4;
 }

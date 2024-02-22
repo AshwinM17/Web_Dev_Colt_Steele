@@ -55,9 +55,10 @@ button:hover {
         /* So that we can change the color as well as give underline on hover */
 }
 
-#search:placeholder-shown{
+#search:placeholder-shown {
     background-color: yellow;
 }
+
 input[type="password"] {
     color: yellow;
 }
@@ -80,13 +81,16 @@ footer a {
 .post:nth-of-type(3n) {
     background-color: rgba(171, 170, 170, 0.416);
 }
-h2::first-letter{
-    font-size:40px;
+
+h2::first-letter {
+    font-size: 40px;
 }
-p::first-line{
-    color:Red;
+
+p::first-line {
+    color: Red;
     font-size: 20px;
 }
-p::selection{
+
+p::selection {
     background-color: #ffb703;
 }

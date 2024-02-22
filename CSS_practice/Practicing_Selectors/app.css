@@ -1,26 +1,31 @@
 * {
-    text-align: center;
-    background-color: lightgray;
+    /* text-align: center; */
+    background-color: #f1faee;
 }
 
 button {
     font-size: 25px;
     color: red;
-    background-color: azure;
+    background-color: rgba(250, 211, 211, 0.66);
 }
 
-h1,
-h2 {
+h1,h2 {
     color: rgb(6, 26, 255);
-
 }
 
 button:hover {
-    background-color: #B279A7!important;
+    background-color: #B279A7 !important;
     /* The !important makes it so that this has higher priority and is not o
     overwritten by the #signup tag below this(placement of the diff containers does't metter) */
     color: white;
     /* See color of the text does not change on hovering */
+}
+
+.post button:active {
+    color: red;
+    font-weight: bold;
+    background-color: Yellow !important;
+    /* Used important here as otherwise the other important in hover would always overrule this */
 }
 
 #signup {
@@ -29,19 +34,21 @@ button:hover {
 
 }
 
-span {
-    color: gray;
-}
 
 .tag {
     background-color: orange;
+
 }
 
-/* span a */
+
 .post a {
     /*ie the anchor tags inside post class */
     color: red;
+    text-decoration: none;
+    font-weight: 700
+        /* So that we can change the color as well as give underline on hover */
 }
+
 
 input[type="password"] {
     color: yellow;
@@ -55,6 +62,11 @@ footer a {
     color: rgb(9, 183, 241);
 }
 
-a:hover {
+.post a:hover {
     color: darkblue;
+    text-decoration: underline;
+}
+
+.post:nth-of-type(3n) {
+    background-color: rgba(171, 170, 170, 0.416);
 }

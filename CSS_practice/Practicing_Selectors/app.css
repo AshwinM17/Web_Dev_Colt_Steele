@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    background-color: #00ff00;
+    background-color: lightgray;
 }
 
 button {
@@ -13,6 +13,14 @@ h1,
 h2 {
     color: rgb(6, 26, 255);
 
+}
+
+button:hover {
+    background-color: #B279A7!important;
+    /* The !important makes it so that this has higher priority and is not o
+    overwritten by the #signup tag below this(placement of the diff containers does't metter) */
+    color: white;
+    /* See color of the text does not change on hovering */
 }
 
 #signup {
@@ -31,9 +39,22 @@ span {
 
 /* span a */
 .post a {
+    /*ie the anchor tags inside post class */
     color: red;
+}
+
+input[type="password"] {
+    color: yellow;
+}
+
+section [class="post"] {
+    background-color: orange;
 }
 
 footer a {
     color: rgb(9, 183, 241);
+}
+
+a:hover {
+    color: darkblue;
 }

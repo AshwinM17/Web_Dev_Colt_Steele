@@ -94,3 +94,15 @@ p::first-line {
 p::selection {
     background-color: #ffb703;
 }
+
+.Exciting::after {
+    content: "<--Exciting";
+    color: green;
+    font-weight: bold;
+}
+
+.Exciting::before {
+    content: "start of Exciting-->";
+    color: green;
+    font-weight: bold;
+}

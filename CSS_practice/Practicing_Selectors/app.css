@@ -96,13 +96,15 @@ p::selection {
 }
 
 .Exciting::after {
-    content: "<--Exciting";
+    content: "<--End of Exciting";
     color: green;
     font-weight: bold;
+    border-style: dotted;
 }
 
 .Exciting::before {
     content: "start of Exciting-->";
     color: green;
     font-weight: bold;
+    border-style: dotted;
 }

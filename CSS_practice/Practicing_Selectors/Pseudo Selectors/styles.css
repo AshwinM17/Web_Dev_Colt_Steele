@@ -1,0 +1,22 @@
+a:target{
+  background-color: Green;  
+}
+p::first-letter{
+  font-size:50Px;
+}
+p::first-line{
+  color:red;
+}
+*::selection{
+  background-color: yellow;
+}
+a::after {
+  content: " (Read More)";
+  color: orange;
+  font-style: italic;
+}
+/* a::before {
+  content: " (Read before)";
+  color: purple;
+  font-style: italic;
+} */

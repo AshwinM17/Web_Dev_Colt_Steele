@@ -11,7 +11,7 @@ body {
 button {
     font-size: 25px;
     color: red;
-    background-color: rgba(250, 211, 211, 0.66);
+    background-color: rgb(25, 211, 211, 0.66);
 }
 
 h1,
@@ -20,7 +20,8 @@ h2 {
 }
 
 button:hover {
-    background-color: #B279A7 !important;
+    background-color: #B279A7;
+    /* background-color: #B279A7 !important; */
     /* The !important makes it so that this has higher priority and is not o
     overwritten by the #signup tag below this(placement of the diff containers does't metter) */
     color: white;
@@ -28,6 +29,7 @@ button:hover {
 }
 
 .post button:active {
+    /* .post class and active means on click */
     color: red;
     font-weight: bold;
     background-color: Yellow !important;
@@ -108,3 +110,16 @@ p::selection {
     font-weight: bold;
     border-style: dotted;
 }
+
+/* Demo of speicificty */
+.post button:hover {
+    background-color: red;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+
+}
+
+/* Demo of speicificty end */

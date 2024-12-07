@@ -3,6 +3,31 @@ div{
     height: 200px;
     background-color: #e5989b;
 }
+h1{
+    background-color: pink;
+    width:115px;/*115 to just fit acc to my system*/
+    
+}
+#one{
+    background-color: pink;
+    border-color:black;
+    border-width:10px; 
+    border-style:solid;
+    /* box-sizing:border-box; */
+}
+#two{
+    background-color: #ef758d;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 8px;
+}
+#three{
+    background-color: #c88787;
+    border: 4px solid black;
+    border-left-style: dotted;
+    border-radius:100px / 500px ;
+}
+
 /* body {
     margin: 0;
 }
